@@ -5,7 +5,7 @@ import os
 if __name__ == '__main__':
     path = Path.home()/'.kaggle'
     os.mkdir(path)
-    with open(path/'kaggle.json', 'w') as f: f.write(os.environ['KAGGLE_JSON'])
+    with open(path/'kaggle.json', 'w') as f: f.write(os.environ['KAGGLE_KEY'])
 
     libs = open('libraries.txt').read().split('\n')
     lib_path = Path('./kaggle_datasets')
