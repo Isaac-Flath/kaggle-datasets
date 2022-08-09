@@ -18,8 +18,8 @@ jobs:
           python-version: 3.9 #install the python needed
       - name: execute py script # run the run.py to get the latest data
         run: |
-          python -m pip install --upgrade pip
-          pip install -U fastkaggle
+          #python -m pip install --upgrade pip
+          #pip install -U fastkaggle
           python run.py
         env:
           key: ${{ secrets.kaggle_key }} # if run.py requires passwords..etc, set it as secrets
