@@ -17,9 +17,9 @@ jobs:
         with:
           python-version: 3.9 #install the python needed
           cache: 'pip' # caching pip dependencies
-      - run: pip install fastkaggle
       - name: execute py script # run the run.py to get the latest data
         run: |
+          pip install fastkaggle
           python run.py
         env:
           key: ${{ secrets.kaggle_key }} # if run.py requires passwords..etc, set it as secrets
