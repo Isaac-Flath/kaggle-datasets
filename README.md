@@ -4,7 +4,6 @@ I created functionality to automate and simplify the creation kaggle datasets co
 
 This repository is to automate the creation of these even further for users by automating this process and keeping popular libraries updated as datasets.  Rather than upload and maintain your own dataset library, [just use my kaggle datasets I maintain for common libraries](https://www.kaggle.com/isaacflath/datasets)!
 
-
 # Contributing
 
 If you have a request to add a library, send me a message, add an issue, or create a PR.  Happy to add what's useful to people!
