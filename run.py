@@ -8,6 +8,7 @@ if __name__ == '__main__':
     
     with open(path/'kaggle.json', 'w') as f: f.write(os.environ['key'])
 
-    libs = open('libraries.txt').read().split('\n')
+    libs = L(open('libraries.txt').read().split('\n')).filter(lambda x: x != '')
+    
     lib_path = Path('./kaggle_datasets')
     create_libs_datasets(libs,lib_path,'isaacflath')
