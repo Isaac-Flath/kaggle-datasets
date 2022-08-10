@@ -6,12 +6,14 @@ fastkaggle
 flask
 imblearn
 keras
+libvips
 lightgbm
 missingno
 nltk
 numpy
 opencv-python
 pandas
+pyvips
 scikit-learn
 scipy
 seaborn
