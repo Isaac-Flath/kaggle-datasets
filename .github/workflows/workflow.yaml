@@ -3,7 +3,7 @@ on:
 #  push:
 #    branches: [main]
   schedule:
-    - cron: "0 0 * * *" #runs at 00:00 UTC everyday
+    - cron: "30 12 * * *" #runs at 00:00 UTC everyday
 
 jobs:
   build:
