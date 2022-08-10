@@ -17,13 +17,15 @@ if __name__ == '__main__':
     
 #    create_libs_datasets(libs,lib_path=lib_path,username='isaacflath',clear_after=False)
 
-    f = bind(create_libs_datasets,lib_path=lib_path,username='isaacflath',clear_after=True)
-    def tryf(lib):
-        try:
-            f(lib)
-        except:
-            print(f"API limit hit - sleep and retry....")
-            time.sleep(30)
-            f(lib)
+    create_f = bind(create_libs_datasets,lib_path=lib_path,username='isaacflath',clear_after=True)
     
-    parallel(tryf,libs)
+    def tryf(lib,tries):
+        for i in range(tries):
+            try:
+                create_f(lib)
+            except:
+                print(f"API limit hit - sleep and retry {i} of {tries}")
+                time.sleep(30)
+                continue
+    f = bind(tryf,tries=5)
+    parallel(f,libs)
