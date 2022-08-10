@@ -9,7 +9,7 @@ if __name__ == '__main__':
     for name, value in os.environ.items(): print(f"{name}")
     
     
-    with open(path/'kaggle.json', 'w') as f: f.write(os.environ['KAGGLE_KEY'])
+    with open(path/'kaggle.json', 'w') as f: f.write(os.environ['key'])
 
     libs = open('libraries.txt').read().split('\n')
     lib_path = Path('./kaggle_datasets')
