@@ -7,3 +7,4 @@ This repository is to automate the creation of these even further for users by a
 # Contributing
 
 If you have a request to add a library, send me a message, add an issue, or create a PR.  Happy to add what's useful to people!
+
