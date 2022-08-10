@@ -1,4 +1,5 @@
 from fastkaggle.core import *
+from fastcore.all import *
 from pathlib import Path
 import os
 
