@@ -64,6 +64,7 @@ pytorch_pfn_extras
 pyvips
 pywaffle
 rank_bm25
+scikit-image
 scikit-learn
 scipy
 scispacy
