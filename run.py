@@ -17,7 +17,7 @@ if __name__ == '__main__':
     
 #    create_libs_datasets(libs,lib_path=lib_path,username='isaacflath',clear_after=False)
 
-    f = bind(create_libs_datasets,lib_path=lib_path,username='isaacflath',clear_after=False)
+    f = bind(create_libs_datasets,lib_path=lib_path,username='isaacflath',clear_after=True)
     def tryf(lib):
         try:
             f(lib)
