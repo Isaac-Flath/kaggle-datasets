@@ -6,7 +6,6 @@ fastkaggle
 flask
 imblearn
 keras
-libvips
 lightgbm
 missingno
 nltk
