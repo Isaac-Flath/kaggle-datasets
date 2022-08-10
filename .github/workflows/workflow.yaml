@@ -26,4 +26,4 @@ jobs:
           #pip install -U fastkaggle
           python run.py
         env:
-          key: ${{ secrets.KAGGLE_KEY }} # if run.py requires passwords..etc, set it as secrets
+          key: ${{ secrets.kaggle_key }} # if run.py requires passwords..etc, set it as secrets
