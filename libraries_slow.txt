@@ -1,0 +1,6 @@
+face-recognition
+tensorflow
+sentence-transformers
+tensorboard
+pytorch-pfn-extras
+matplotlib-venn
