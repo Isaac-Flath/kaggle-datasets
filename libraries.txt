@@ -7,7 +7,6 @@ bert
 bubbly
 catboost
 category-encoders
-covsirphy
 cudf
 cuml
 dabl
@@ -18,7 +17,6 @@ detr
 efficientnet
 efficientnet-pytorch
 eli5
-face-recognition
 fastai
 fastcore
 fastdownload
@@ -37,7 +35,6 @@ imutils
 inference
 keras
 lightgbm
-matplotlib-venn
 missingno
 mlcrate
 mlflow-extend
@@ -47,7 +44,7 @@ networkx
 nibabel
 nilearn
 nltk
-nnAudio
+nnaudio
 numpy
 opencv-python
 pandas
@@ -57,7 +54,6 @@ plotnine
 polyglot
 pydicom
 pyflux
-pytorch-pfn-extras
 pyvips
 pywaffle
 rank-bm25
@@ -67,11 +63,8 @@ scipy
 scispacy
 seaborn
 segmentation-models-pytorch
-sentence-transformers
 statsmodels
 tabulate
-tensorboard
-tensorflow
 tez
 timm
 tokenizers
