@@ -53,7 +53,6 @@ paperai
 plotnine
 polyglot
 pydicom
-pyflux
 pyvips
 pywaffle
 rank-bm25
